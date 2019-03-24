@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Lanchonete</title>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Sniglet:400,800" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script type="text/javascript" src="script/main.js"></script>
+		<script type="text/javascript" src="script/jquery.number.min.js"></script>
+
+	</head>
+	
+	<body>
+		<div class="conteudo">
+			<div class="conteudo__centro">
+				<img src="img/hamburguer.svg" class="logo">
+
+				<h1>Cardápio</h1>
+
+				<div class="cardapio">
+					<div class="cardapio__lanches flex">
+						<div class="col30"> 
+							<div class="titulo">Lanches</div>
+							<div class="item"><input type="checkbox" name="checkbox" value="xbacon" class="check"> X-Bacon</div>
+							<div class="item"><input type="checkbox" name="checkbox" value="xburguer" class="check">X-Burguer</div>
+							<div class="item"><input type="checkbox" name="checkbox" value="xegg" class="check">X-Egg</div>
+							<div class="item"><input type="checkbox" name="checkbox" value="xeggbacon" class="check">X-Egg Bacon</div>
+						</div>
+						<div class="col70">
+							<div class="titulo">Ingredientes</div>
+							<div class="item">Bacon, hambúrguer de carne e queijo</div>
+							<div class="item">Hambúrguer de carne e queijo</div>
+							<div class="item">Ovo, hambúrguer de carne e queijo</div>
+							<div class="item">Ovo, bacon, hambúrguer de carne e queijo</div>
+						</div>
+					</div>
+
+					<br><br>
+					<div class="cardapio__adicionais flex">
+						<div class="col30"> 
+							<div class="titulo">Adicionais</div>
+							<div class="item"><input type="checkbox" name="checkbox" value="alface" class="check">Alface</div>
+							<div class="item"><input type="checkbox" name="checkbox" value="bacon" class="check">Bacon</div>
+							<div class="item"><input type="checkbox" name="checkbox" value="hamburguer" class="check">Hamburguer de carne</div>
+							<div class="item"><input type="checkbox" name="checkbox" value="ovo" class="check">Ovo</div>
+							<div class="item"><input type="checkbox" name="checkbox" value="queijo" class="check">Queijo</div>
+						</div>
+					</div>
+
+					<br><br>
+
+					<div class="flex center">
+						<input type="button" value="Fazer pedido" name="finalizar" class="finalizar">
+						<input type="button" value="Novo pedido" name="novo" class="novo" disabled="disabled">
+					</div>
+
+					<br><br>
+
+					<div class="preco flex">
+						Total do pedido: R$ 
+						<div class="total"></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</body>
+</html>	 	 	 
+ 
+ 
